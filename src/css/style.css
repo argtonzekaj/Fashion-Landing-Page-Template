@@ -204,3 +204,55 @@ option{
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
+.mens_wrapper{
+    margin-bottom: 125px;
+    height: 620px;
+}
+.mens_tittle h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(34, 38, 42);
+    margin-bottom: 30px;
+    text-align: center;
+}
+.mens_tittle p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(34, 38, 42);
+    margin-bottom: 70px;
+    text-align: center;
+}
+.mens_content{
+    margin-top: 43px;
+}
+.mens_content h6{
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(34, 38, 42);
+}
+.mens_content p{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(34, 38, 42);
+    margin-bottom: 15px;
+}
+.mens_content h5{
+    position: relative;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+.mens_content h5::before{
+    content: '';
+    display: inline-block;
+    border: 1px solid;
+    color: rgb(34, 38, 42);
+    width: 66px;
+    position: absolute;
+    top: 7px;
+}
+.mens_content h5 span{
+    margin-left: 30px;
+    color: #CF2929;
+}
