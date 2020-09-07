@@ -1,0 +1,9 @@
+/* This media query is used only for mobile devices */
+@media only screen and (max-width: 767px) {
+}
+/* This media query is used only for small tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+}
+/* This media query is used only for big tablet devices */
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+}
