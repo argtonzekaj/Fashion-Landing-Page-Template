@@ -1,0 +1,43 @@
+body,
+input,
+select,
+textarea,
+option{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 14px;
+}
+.headerWrap{
+    display: flex;
+    height: 83px;
+}
+.header_logo{
+    margin-top: 31px;
+}
+.nav_bar-flex{
+    display: flex;
+}
+.nav_bar-flex li{
+    margin-top: 34px;
+    margin-right: 31px;
+    font-size: 18px;
+    color: rgb(34, 38, 42);
+    transition: all 0.2s ease-in-out;
+}
+.nav_bar-flex li:hover{
+    transform:scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+.nav_bar-flex li:first-child{
+    margin-left: 150px;
+}
+.nav_bar-flex li:last-child{
+    margin-right: 145px;
+}
+.nav_bar-flex li a{
+    text-decoration: none;
+    color: rgb(34, 38, 42);
+}
+.nav_bar-icon{
+    margin-top: 32px;
+}
