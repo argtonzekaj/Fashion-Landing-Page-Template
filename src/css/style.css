@@ -92,3 +92,52 @@ option{
 .intro_button a{
     text-decoration: none;
 }
+.catagory_wrapper{
+    margin-top: 121px;
+    height: 560px;
+    margin-bottom: 115px;
+}
+.cataphoto2{
+    margin-top: 22px;
+    margin-right: 5px;
+}
+.cataphoto4{
+    height: 575px;
+}
+.column-6{
+    position: relative;
+}
+.filter_photo{
+    transition: all 0.3s ease-in-out;
+}
+.column-6:hover .filter_photo{
+    filter: blur(8px);
+}
+.column-6:hover .filter_photo:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+    z-index: 999;
+    object-fit: cover;
+}
+.column-6 h5{
+    position: absolute;
+    top: 517px;
+    left: 32px;
+    width: 203px;
+    height: 35px;
+    padding-top: 7px;
+    padding-left: 24px;
+    color: rgb(34, 38, 42);
+    background-color: white;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.column-6 img{
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+.cataphoto{
+    border: 1px solid
+}
