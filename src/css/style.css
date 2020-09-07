@@ -41,3 +41,54 @@ option{
 .nav_bar-icon{
     margin-top: 32px;
 }
+.intro_image img{
+    position: relative;
+    width: 100%;
+}
+.intro_content{
+    position: absolute;
+    top: 444px;
+    margin-left: 700px;
+}
+.intro_content-tittle h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(34, 38, 42);
+    margin-bottom: 30px;
+}
+.intro_content-tittle h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: rgb(34, 38, 42);
+    margin-bottom: 30px;
+}
+.intro_content-tittle h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(34, 38, 42);
+    margin-bottom: 30px;
+}
+.intro_button{
+    display: flex;
+}
+.intro_button h5{
+    margin-right: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 8px;
+    padding-left: 24px;
+    width: 147px;
+    height: 35px;
+    color: white;
+    background-color: rgb(34, 38, 42);
+    transition: all 0.3s ease-in-out;
+}
+.intro_button:hover .button{
+    filter:blur(10px);
+}
+.intro_button:hover .button:hover{
+    filter: blur(0px);
+}
+.intro_button a{
+    text-decoration: none;
+}
