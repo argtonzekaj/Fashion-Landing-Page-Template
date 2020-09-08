@@ -256,3 +256,61 @@ option{
     margin-left: 30px;
     color: #CF2929;
 }
+.avone_wrapper{
+    position: relative;
+    height: 817px;
+    margin-bottom: 121px;
+}
+.avone_tittle{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.avone_tittle h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.avone_tittle p{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(34, 38, 42);
+}
+.box{
+    float: left;
+    padding: 0 15px;
+    width: 50%;
+}   
+.avone1{
+    margin-top: 150px;
+}
+.avone3{
+    margin-left: 324px;
+    padding: 22px 25px 22px 25px;
+    background-color: white;
+    margin-top: -65px;
+}
+.box_content a{
+    text-decoration: none;
+    color: rgb(34, 38, 42);
+}
+.box_content h5:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.box_content h5:hover::after{
+    display: none;
+}
+.box_content h5{
+    position: absolute;
+    top: 685px;
+    left: 725px;
+}
+.box_content h5::after{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -4px;
+    width: 168px;
+    border: 1px solid;
+    border-color: rgb(34, 38, 42);
+}
